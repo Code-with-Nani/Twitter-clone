@@ -1,0 +1,25 @@
+@font-face {
+  font-family: bold;
+  src: url(./assets/fonts/Chirp-Bold.ebb56aba.woff2);
+}
+@font-face {
+  font-family: medium;
+  src: url(./assets/fonts/Chirp-Medium.f8e2739a.woff2);
+}
+@font-face {
+  font-family: regular;
+  src: url(./assets/fonts/Chirp-Regular.80fda27a.woff2);
+}
+.bold {
+  font-family: bold, sans-serif;
+}
+.medium {
+  font-family: medium, sans-serif;
+}
+.regular {
+  font-family: regular, sans-serif;
+}
+body {
+  background-color: #000000;
+  color: #E7E9EA;
+}
