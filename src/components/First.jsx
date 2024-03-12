@@ -10,6 +10,8 @@ import { AiOutlineUsergroupAdd } from "react-icons/ai";
 import { RiAccountCircleLine } from "react-icons/ri";
 import { CgMoreO } from "react-icons/cg";
 import { MdOutlineIndeterminateCheckBox } from "react-icons/md";
+import { IoIosMore } from "react-icons/io";
+import img from "../assets/images/myimg.jpg"
 
 const First = () => {
   return (
@@ -18,7 +20,7 @@ const First = () => {
         <RiTwitterXLine className="" />
       </div>
 
-      <div className="sidebar  flex justify-center  ">
+      <div className="sidebar  flex justify-center translate-x-8 ">
         <ul className="flex flex-col text-[20px] ">
           <li className="flex justify-start items-center gap-3 cursor-pointer hover:bg-[#181818] w-fit pl-3 pr-5 rounded-full py-[10px]  bold ">
             <MdHomeFilled className="text-3xl" /> Home
@@ -57,6 +59,19 @@ const First = () => {
           <li className="flex justify-start items-center gap-3  cursor-pointer hover:bg-[#181818] w-fit pl-3 pr-5 rounded-full py-[10px]  ">
             <CgMoreO className="text-[26px]" />
             More
+          </li>
+          <li className="cursor-pointer bg-[#4198fc] hover:bg-[#1D9BF0] delay-150 w-fit mx-auto px-24 rounded-full py-[8px] medium mt-4">
+           
+            Post
+          </li>
+
+          <li className="flex justify-start items-center gap-3  cursor-pointer hover:bg-[#181818] w-fit pl-3 pr-5 rounded-full py-[10px] mt-4 ">
+          <img className='h-10 rounded-full w-10 object-cover' src={img} alt="" />
+          <div className="">
+              <h4 className='bold text-[18px]'>Muhammad Hanan</h4><h2 className='text-sm text-[#737679] regular pl-3'>@HananUsman82357</h2>
+              </div>
+            
+           
           </li>
         </ul>
       </div>

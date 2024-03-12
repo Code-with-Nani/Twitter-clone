@@ -29,7 +29,7 @@ const Third = () => {
 
         <div className="item cursor-pointer py-2 hover:bg-[#2f3135] px-4 ">
            <h2 className='text-sm text-[#737679] regular flex justify-between'>Politics . Trending <IoIosMore className='text-[22px]'/></h2>
-           <h4 className='bold text-[18px]'>Russian</h4>
+           <h4 className='bold text-[18px]'>Pak Army</h4>
            <h2 className='text-sm text-[#737679] regular'>202k posts</h2>
         </div>
 

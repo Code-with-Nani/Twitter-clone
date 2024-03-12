@@ -45,6 +45,7 @@ const Second = () => {
         <div className="line w-full h-[1px] bg-[#2F3336]"></div>
 
      </div>
+     <div className="posts"></div>
 
     </div>
   )
