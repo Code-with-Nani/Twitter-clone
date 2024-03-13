@@ -82,7 +82,7 @@ const Third = () => {
             <h2 className="text-sm text-[#737679] regular pl-3">
               @HananUsman82357
             </h2>
-            <div className="btn bg-[#D7DBDC] w-fit text-black medium px-3 py-[2px] rounded-full ">
+            <div className="btn bg-[#D7DBDC] w-fit text-black medium px-3 py-[2px] rounded-full xl:block hidden">
               <button>Follow</button>
             </div>
           </div>

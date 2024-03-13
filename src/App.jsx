@@ -6,7 +6,7 @@ import Third from "./components/Third";
 function App() {
   return (
     <>
-      <div className="main flex container mx-auto">
+      <div className="main flex container mx-auto overflow-hidden">
         <div className="first w-full ">
           <First />
         </div>

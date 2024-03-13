@@ -31,14 +31,14 @@ const Second = () => {
         <div className="center w-full text-center regular py-4 cursor-pointer hover:bg-[#181818] text-[#71767b] ">
           Following
         </div>
-        <div className="center text-xl py-4 px-5 cursor-pointer hover:bg-[#181818] rounded-full">
+        <div className="center text-xl py-4 lg:px-5 px-10 cursor-pointer hover:bg-[#181818] rounded-full">
           <IoSettingsOutline />
         </div>
       </div>
       <div className="w-full h-[1px] bg-[#2F3336]"></div>
 
       <div className="what's happening">
-        <div className="dp flex gap-2 pl-4 pt-3">
+        <div className="dp flex gap-2 lg:pl-4 pl-1 pt-3">
           <img
             className="h-10 rounded-full w-10 object-cover"
             src={img}
@@ -78,7 +78,7 @@ const Second = () => {
         <div className="line w-full h-[1px] bg-[#2F3336]"></div>
       </div>
       <div className="all-posts ">
-        <div className="post pl-4 pt-3 flex ">
+        <div className="post lg:pl-4 pl-1 pt-3 flex ">
           <img
             className="img h-10 rounded-full w-10 object-cover"
             src={img}
@@ -95,10 +95,10 @@ const Second = () => {
         <div className="text pl-16 md:-translate-y-4 regular">
           The new OpenAI logo is really on point
         </div>
-        <div className="content border border-[#2F3336] ml-16 mr-6 rounded-xl">
+        <div className="content border border-[#2F3336] lg:ml-16 ml-2 lg:mr-6 mr-10 rounded-xl">
           <img className="h-[300px] pl-12 object-contain" src={post1} alt="" />
         </div>
-        <div className="icons ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-4">
+        <div className="icons lg:ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-10  ml-2 lg:mr-4 ">
           <span className="flex justify-center cursor-pointer items-center gap-1">
             <BiMessageRounded />
             2.7k
@@ -122,7 +122,7 @@ const Second = () => {
         </div>
         <div className="line w-full h-[1px] bg-[#2F3336] "></div>
 
-        <div className="post pl-4 pt-3 flex ">
+        <div className="post lg:pl-4 pl-1 pt-3 flex ">
           <img
             className="img h-10 rounded-full w-10 object-cover"
             src={img}
@@ -139,14 +139,14 @@ const Second = () => {
         <div className="text pl-16 md:-translate-y-4 regular">
           Astro Db is 100% TypeScript
         </div>
-        <div className="content border border-[#2F3336] ml-16 mr-6 rounded-xl">
+        <div className="content border border-[#2F3336] lg:ml-16 ml-2 lg:mr-6 mr-10 rounded-xl">
           <img
             className="h-[300px] w-full rounded-xl object-cover"
             src={post4}
             alt=""
           />
         </div>
-        <div className="icons ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-4">
+        <div className="icons lg:ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-10  ml-2 lg:mr-4">
           <span className="flex justify-center cursor-pointer items-center gap-1">
             <BiMessageRounded />
             2.7k
@@ -170,7 +170,7 @@ const Second = () => {
         </div>
         <div className="line w-full h-[1px] bg-[#2F3336] "></div>
 
-        <div className="post pl-4 pt-3 flex ">
+        <div className="post lg:pl-4 pl-1 pt-3 flex ">
           <img
             className="img h-10 rounded-full w-10 object-cover"
             src={img}
@@ -187,14 +187,14 @@ const Second = () => {
         <div className="text pl-16 md:-translate-y-4 regular">
           The new look of Google login page
         </div>
-        <div className="content border border-[#2F3336] ml-16 mr-6 rounded-xl">
+        <div className="content border border-[#2F3336] lg:ml-16 ml-2 lg:mr-6 mr-10 rounded-xl">
           <img
             className="h-[300px] rounded-xl object-contain"
             src={post3}
             alt=""
           />
         </div>
-        <div className="icons ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-4">
+        <div className="icons lg:ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-10  ml-2 lg:mr-4">
           <span className="flex justify-center cursor-pointer items-center gap-1">
             <BiMessageRounded />
             2.7k
@@ -218,7 +218,7 @@ const Second = () => {
         </div>
         <div className="line w-full h-[1px] bg-[#2F3336] "></div>
 
-        <div className="post pl-4 pt-3 flex ">
+        <div className="post lg:pl-4 pl-1 pt-3 flex ">
           <img
             className="img h-10 rounded-full w-10 object-cover"
             src={img}
@@ -235,10 +235,10 @@ const Second = () => {
         <div className="text pl-16 md:-translate-y-4 regular">
           ChatGPT x Grok
         </div>
-        <div className="content border border-[#2F3336] ml-16 mr-6 rounded-xl">
+        <div className="content border border-[#2F3336] lg:ml-16 ml-2 lg:mr-6 mr-10 rounded-xl">
           <img className="h-[300px] pl-12 object-contain" src={post2} alt="" />
         </div>
-        <div className="icons ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-4">
+        <div className="icons lg:ml-[68px] my-3 cursor-pointer text-[#71767b] flex items-center justify-between mr-10  ml-2 lg:mr-4">
           <span className="flex justify-center cursor-pointer items-center gap-1">
             <BiMessageRounded />
             2.7k
