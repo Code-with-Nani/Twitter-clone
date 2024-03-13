@@ -13,7 +13,7 @@ function App() {
         <div className="second w-[170%] border-x border-[#2F3336] ">
           <Second />
         </div>
-        <div className="third w-full  ">
+        <div className="third w-full hidden lg:block ">
           <Third />
         </div>
       </div>
