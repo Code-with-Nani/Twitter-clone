@@ -5,7 +5,7 @@ import img from "../assets/images/myimg.jpg"
 
 const Third = () => {
   return (
-    <div className='main mt-1 ml-7 '>
+    <div className='main mt-1 ml-7 sticky top-0 hidden lg:block'>
 
       <div className="search flex justify-start items-center  regular ">
         <div className='bg-[#202327] rounded-l-full pl-6  py-[13px] text-[#abadb1] '><IoSearch className=' mt-[2px]'/></div>
